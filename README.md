@@ -1,4 +1,4 @@
-# HorizontalGridView
+# HorizontalGridView <a href="https://blog.csdn.net/lzw398756924/article/details/105731426" rel="nofollow">博客地址</a>
 <h3 align="center">基本介绍</h3>
 <p align="center" blod=true >HorizontalGridView是一个仿照 直播间礼物列表/电商首页二级分类栏 实现横向滚动的自定view</p>
 
