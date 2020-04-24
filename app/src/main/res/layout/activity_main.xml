@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ziwenl.horizontalgridview.widgets.HorizontalGridView
+        android:id="@+id/hgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:indicatorBackground="@drawable/shape_indicator_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pageDisplaysCount="10"
+        app:pageSpanCount="5"
+        app:tabBackground="@drawable/shape_tab_background"
+        app:tabLayoutHeight="5dp"
+        app:tabLayoutInterval="5dp"
+        app:tabLayoutWidth="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

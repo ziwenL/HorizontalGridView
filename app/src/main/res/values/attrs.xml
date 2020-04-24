@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalGridView">
+        <!--指示器背景-->
+        <attr name="indicatorBackground" format="reference" />
+        <!--指示器颜色 只有 "未设置indicatorBackground" 或 "设置了indicatorBackground但SDK低于24" 时才生效-->
+        <attr name="indicatorBackgroundColor" format="color" />
+        <!--TabLayout宽度-->
+        <attr name="tabLayoutWidth" format="dimension" />
+        <!--TabLayout高度-->
+        <attr name="tabLayoutHeight" format="dimension" />
+        <!--TabLayout背景-->
+        <attr name="tabBackground" format="reference" />
+        <!--TabLayout和ViewPager的间隔-->
+        <attr name="tabLayoutInterval" format="dimension" />
+        <!--ViewPager每页展示总数量-->
+        <attr name="pageDisplaysCount" format="integer" />
+        <!--ViewPager每行展示数目-->
+        <attr name="pageSpanCount" format="integer" />
+    </declare-styleable>
+</resources>
