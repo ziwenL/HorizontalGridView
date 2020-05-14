@@ -3,7 +3,7 @@
 <p align="center" blod=true >HorizontalGridView是一个仿照 直播间礼物列表/电商首页二级分类栏 实现横向滚动的自定view</p>
 
 <h6>显示效果</h6>
-<img src="https://img-blog.csdnimg.cn/20200424153747461.gif?raw=true" />
+<img  src="https://img-blog.csdnimg.cn/20200424153747461.gif?raw=true" alt="显示效果" />
 
 <h6>功能说明</h6>
 <ul>
